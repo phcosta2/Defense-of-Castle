@@ -10,5 +10,6 @@
     - Quais os recursos do jogo?
     - Quais os limites do jogo?
     - Quais os resultados do jogo?
-        - Como ele termina depois da vitoria ou derrota?
+        - Como ele termina depois da vitoria
+        - Como ele termina depois da derrota
 
