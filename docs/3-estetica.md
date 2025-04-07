@@ -4,7 +4,7 @@
 + ## Personagens
  
 + ### Quais os personagens que farão parte do jogo?
-+   - **Protagonista (Implícito/Jogador):** O jogador assume o papel de um **Capitão** da guarda do reino, responsável por comandar as defesas. Conforme progride, sua patente (e talvez visual) pode evoluir para **General**. A "personificação" do jogador em termos de jogabilidade são as **Torres Elementais** (ex: Fogo, Gelo, Terra - *precisa definir os 3 elementos*) que ele constrói e gerencia.
++   - **Protagonista (Implícito/Jogador):** O jogador assume o papel de um **Capitão** da guarda do reino, responsável por comandar as defesas. Conforme progride, sua patente pode evoluir para **General**. A "personificação" do jogador em termos de jogabilidade são as **Torres Elementais** (ex: Fogo, Gelo, Terra - *precisa definir os 3 elementos*) que ele constrói e gerencia.
 +   - **Antagonistas:** Hordas de inimigos genéricos que compõem as ondas de invasão. Incluem **Bandidos**, **Goblins** (provavelmente rápidos e fracos), **Orcs** (lentos e resistentes - *adicionado como sugestão de outro genérico*), e potencialmente outros tipos que surjam em fases mais avançadas (ex: inimigos voadores, inimigos com armadura pesada, feiticeiros inimigos). Pode haver um **Líder/Boss** na fase final.
 +   - **Personagens Não Jogáveis (NPCs):** Figuras importantes do reino que precisam ser protegidas e podem aparecer em elementos de história/UI. Incluem a **Princesa**, o **Rei**, e talvez o **General** (inicialmente, antes do jogador alcançar essa patente, ou como uma figura superior).
 
