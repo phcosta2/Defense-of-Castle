@@ -1,5 +1,5 @@
 
-+ ### Estética
++ # Estética
 
 + ## Personagens
  
