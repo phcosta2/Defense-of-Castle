@@ -1,64 +1,73 @@
-### Mecânica
+# Mecânica
 
-- Apresente os elementos formais do jogo
-    Defense of Castle é um jogo de estratégia do gênero tower defense em que o jogador deve defender seu reino de waves inimigas contruindo torres de defesa. A mecânica do jogo é baseada em posicionamento de torres de defesa no mapa e no gerenciamento dos recursos disponíveis.
+## Elementos Formais do Jogo
 
-    - Qual o padrão de interação do jogador?
- 
-     O jogador interage com o jogo principalmente por meio de cliques na tela, posicionando e atualizando torres ao longo do caminho dos inimigos. Além disso, ele pode realizar ações como invocar a próxima onda de inimigos, iniciar a fase, pular ou avançar as cutscenes
-      
-    - Qual o objetivo do jogo?
- 
-    Objetivo Principal: Impedir que as ondas de inimigos cheguem ao final do caminho, defendendo os pontos estratégicos e protegendo o reino.
+
+**Defense of Castle** é um jogo de estratégia do gênero *tower defense*, onde o jogador deve defender seu reino contra ondas de inimigos, construindo e posicionando torres de defesa ao longo do mapa. A mecânica do jogo gira em torno do posicionamento estratégico das torres e do gerenciamento das moedas .
+
+
+
+## Padrão de Interação do Jogador
+
+O jogador interage com o jogo por meio de cliques na tela, podendo:
+
+- Chamar a próxima onda de inimigos.
+- Iniciar a fase.
+- Pular ou avançar as cutscenes.
+- Selecionar slot e escolher a torre que deseja construir
   
-        - Quando o jogador ganha?
-        O jogador vence quando consegue defender todas as ondas de inimigos em uma fase sem que o inimigo atinja o ponto final do mapa. Isso significa que o jogador deve derrotar todos os inimigos sem que o número de vidas seja reduzido a zero.
-        - Quando o jogador perde?
-      O jogador perde quando o inimigo chega ao ponto final do mapa, causando a perda de uma quantidade significativa de vidas. Se as vidas se esgotarem, o jogo termina.
-    - Quais são as regrsas do jogo?
-     Construção de Torres: O jogador pode construir torres apenas em locais pré-definidos no mapa.
+## Objetivo do Jogo
 
-Melhoria de Torres: As torres podem ser melhoradas para aumentar seu poder de ataque, alcance e outras características.
+O objetivo principal do jogo é impedir que as ondas de inimigos alcancem o final do caminho, defendendo pontos estratégicos e protegendo o reino.
 
-Tipos de Torres: Existem diferentes tipos de torres, como arquerias, canhões, magos e torres de defesa especial, cada uma com características próprias.
+- **Quando o jogador ganha?**  
+  O jogador vence quando consegue defender todas as ondas de inimigos em uma fase sem que o inimigo atinja o ponto final do mapa. Para isso, o jogador deve derrotar todos os inimigos sem que o número de vidas seja reduzido a zero.
 
-Inimigos: As ondas de inimigos têm diferentes características e fraquezas, como resistência a certos tipos de dano, ou a habilidade de se mover rapidamente.
-
-Recursos: O jogador ganha ouro a cada inimigo derrotado, que pode ser usado para construir novas torres ou melhorar as existentes.
-
-Vidas: O jogador começa com um número determinado de vidas, e cada inimigo que chega ao final do caminho reduz o total de vidas.
-
-Procedimentos do jogo
-O jogo é dividido em fases, e cada fase tem um mapa específico com uma trilha que os inimigos seguem.
-
-Cada fase começa com uma onda de inimigos e o jogador deve defender o caminho utilizando as torres.
-
-O jogador pode pausar o jogo para planejar suas ações ou para observar a movimentação dos inimigos.
-
-Ao derrotar inimigos, o jogador ganha ouro, que é utilizado para construir novas torres ou melhorar as existentes.
-  
-    - Quais são os procedimentos do jogo?
+- **Quando o jogador perde?**  
+  O jogador perde quando o inimigo chega ao ponto final do mapa, resultando na perda de uma quantidade significativa de vidas. Se as vidas se esgotarem, a fase termina e é exibido a tela de derrota.
 
 
-    
-    - Quais os recursos do jogo?
 
-    Ouro: Usado para construir e melhorar torres.
+## Regras do Jogo
 
-    Vidas: Indicam o número de ataques que o reino pode sofrer antes de ser derrotado. O jogador começa com um número de vidas, e cada inimigo que atinge o final do caminho causa a perda de vidas.
-    - Quais os limites do jogo?
-    Limite de construção de torres: O jogador só pode construir torres em locais específicos do mapa.
+1. **Construção de Torres:** O jogador pode construir torres apenas em locais pré-definidos no mapa.
+2. **Melhoria de Torres:** As torres podem ser melhoradas para aumentar seu poder de ataque, alcance e outras características, tais melhorias custam ouro.
+3. **Tipos de Torres:** Existem diferentes tipos de torres, como arquerias, canhões, magos e torres de defesa especial, cada uma com características próprias.
+4. **Inimigos:** As ondas de inimigos têm diferentes características e fraquezas, como resistência a certos tipos de dano ou a habilidade de se mover rapidamente.
+5. **Recursos:** O jogo gira em torno de ouro, moeda ultilizada para contruir mais defesas, ele possue uma quantidade finita que da para adquirir por fase.
+6. **Vidas:** O jogador começa com um número determinado de vidas, e cada inimigo que chega ao final do caminho reduz o total de vidas.
 
-    Limite de recursos: O jogador deve gerenciar cuidadosamente o ouro, pois não é possível construir ou melhorar torres infinitamente.
 
-    Limite de vidas: O número de vidas é finito, e uma vez que todas as vidas forem perdidas, o jogo termina.
 
-    Dificuldade crescente: A cada nova fase, as ondas de inimigos ficam mais difíceis, exigindo mais estratégia do jogador.
-    - Quais os resultados do jogo?
-        - Como ele termina depois da vitoria
-    Quando o jogador derrota todas as ondas de inimigos em uma fase, a vitória é anunciada. O jogo exibe uma tela de vitória e desbloqueia a cutscene e depois a proxima fase
-        
-        - Como ele termina depois da derrota
+## Procedimentos do Jogo
 
-    Quando o número de vidas chega a zero, o jogo termina com uma tela de derrota. O jogador pode optar por tentar novamente a fase ou retornar ao menu principal.
+O jogo é dividido em fases, cada uma com um mapa específico e uma trilha que os inimigos seguem. As fases funcionam da seguinte maneira:
+
+- **Início da Fase:** Cada fase começa com uma onda de inimigos, e o jogador deve defender o caminho utilizando as torres.
+- **Ganho de Ouro:** Ao derrotar inimigos, o jogador ganha ouro, que é utilizado para construir novas torres ou melhorar as existentes.
+
+
+
+## Recursos do Jogo
+
+1. **Ouro:** Usado para construir e melhorar torres.
+2. **Vidas:** Indicam o número de ataques que o objetivo pode sofrer antes de ser derrubado (derrota). O jogador começa com um número de vidas fixo de 25, e cada inimigo que atinge o final do caminho causa a perda de vidas.
+
+
+## Limites do Jogo
+
+1. **Limite de Construção de Torres:** O jogador só pode construir torres em locais específicos do mapa.
+2. **Limite de Recursos:** O jogador deve gerenciar o ouro, pois não é possível construir ou melhorar torres caso não haja ouro suficiente, cada fase o jogador começa com uma certa quantidade de ouro .
+3. **Limite de Vidas:** O número de vidas é finito, e uma vez que todas as vidas forem perdidas, o jogo termina.
+4. **Dificuldade Crescente:** A cada nova fase, as ondas de inimigos ficam mais difíceis, exigindo mais estratégia do jogador.
+
+
+## Resultados do Jogo
+
+- **Como ele termina depois da vitória?**  
+  Quando o jogador derrota o ultimo minion da ultima wave da fase, o jogo exibe uma tela de vitória, desbloqueia e mostra uma cutscene e, em seguida, a próxima fase é liberada.
+
+- **Como ele termina depois da derrota?**  
+  Conforme os inimigos chegam ao seu destino vivos, o contador de vidas vai diminuindo, quando chega a 0 a fase termina com uma tela de derrota. O jogador pode optar por tentar novamente a fase ou retornar ao menu principal.
+> Nota: Caso a fase seja a última e a mesma foi perdida, tocará uma cutscene alternativa e a fase não é concluida.
 
