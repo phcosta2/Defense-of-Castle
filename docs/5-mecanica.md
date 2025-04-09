@@ -32,7 +32,7 @@ O objetivo principal do jogo é impedir que as ondas de inimigos alcancem o fina
 
 1. **Construção de Torres:** O jogador pode construir torres apenas em locais pré-definidos no mapa.
 2. **Melhoria de Torres:** As torres podem ser melhoradas para aumentar seu poder de ataque, alcance e outras características, tais melhorias custam ouro.
-3. **Tipos de Torres:** Existem diferentes tipos de torres, como arquerias, canhões, magos e torres de defesa especial, cada uma com características próprias.
+3. **Tipos de Torres:** Existem diferentes tipos de torres elementais, de fogo, agua e terra, cada uma com características próprias.
 4. **Inimigos:** As ondas de inimigos têm diferentes características e fraquezas, como resistência a certos tipos de dano ou a habilidade de se mover rapidamente.
 5. **Recursos:** O jogo gira em torno de ouro, moeda ultilizada para contruir mais defesas, ele possue uma quantidade finita que da para adquirir por fase.
 6. **Vidas:** O jogador começa com um número determinado de vidas, e cada inimigo que chega ao final do caminho reduz o total de vidas.
