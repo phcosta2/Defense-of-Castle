@@ -10,6 +10,9 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Botão Novo Jogo Clicado!");
         // TODO: Coloque aqui a lógica para iniciar um novo jogo
         // Exemplo: SceneManager.LoadScene("NomeDaSuaCenaDeJogo");
+        //Quando criar um novo jogo o mapa deve ser carregado e resetado
+        //Implementar lógica de resetar o mapa
+        SceneManager.LoadScene("SelectMenu");
     }
 
     // Função para o botão "Load Game" (Carregar Jogo)
