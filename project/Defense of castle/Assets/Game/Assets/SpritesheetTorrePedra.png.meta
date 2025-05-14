@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpritesheetTorrePedra_0: 4204902625489230929
+      SpritesheetTorrePedra_1: -941222959527895696
+      SpritesheetTorrePedra_2: 5375429203039092174
+      SpritesheetTorrePedra_3: 7944267847989884238
+      SpritesheetTorrePedra_4: 1933634175617117104
+      SpritesheetTorrePedra_5: 650552544966487898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
