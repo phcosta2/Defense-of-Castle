@@ -124,6 +124,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6217572971257876442, guid: 5acd3927ce827d04c859c433846ba8a9, type: 3}
   m_PrefabInstance: {fileID: 2983025992458651561}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &145937515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5340,3 +5341,8 @@ SceneRoots:
   - {fileID: 1490983329}
   - {fileID: 5540091345516912417}
   - {fileID: 2983025992458651561}
+=======
+  - {fileID: 2025907804}
+  - {fileID: 1794010805}
+  - {fileID: 1831739398}
+>>>>>>> Stashed changes
