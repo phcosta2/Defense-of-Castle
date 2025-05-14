@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class FireTower : MonoBehaviour
 {
-    public float range = 5f;
-    public float fireRate = 0.5f;
-    public GameObject projectilePrefab;
+    public float range = 5f;            // Raio de alcance da torre
+    public float fireRate = 0.5f;       // Taxa de disparo
+    public GameObject projectilePrefab; // Prefab do projetil (fogo)
 
-    private Transform firePoint;
-    private float fireCooldown;
+    private Transform firePoint;        // Ponto de disparo
+    private float fireCooldown;         // Tempo de recarga entre os disparos
 
     void Awake()
     {
@@ -22,8 +22,10 @@ public class FireTower : MonoBehaviour
     {
         fireCooldown -= Time.deltaTime;
 
+        // Encontrar o inimigo mais próximo dentro do alcance
         GameObject target = FindNearestEnemyInRange();
 
+        // Atirar caso haja um inimigo e o tempo de recarga tenha acabado
         if (target != null && fireCooldown <= 0f)
         {
             Shoot(target);
@@ -31,6 +33,7 @@ public class FireTower : MonoBehaviour
         }
     }
 
+    // Encontra o inimigo mais próximo dentro do alcance
     GameObject FindNearestEnemyInRange()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
@@ -50,16 +53,23 @@ public class FireTower : MonoBehaviour
         return nearest;
     }
 
+    // Dispara o projetil em direção ao inimigo
     void Shoot(GameObject target)
     {
+        if (target == null) return;
+
+        // Instancia o projetil na posição do firePoint
         GameObject proj = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
+
+        // Configura o projetil com o alvo
         FireProjectile fireProj = proj.GetComponent<FireProjectile>();
         if (fireProj != null)
         {
-            fireProj.SetTarget(target);
+            fireProj.SetTarget(target); // Passa o alvo para o projetil
         }
     }
 
+    // Visualiza o alcance da torre no editor
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
