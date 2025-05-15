@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a7b034c45e5212a4785fa50dc54e7add
+guid: 442178f9deb7e0044ba5467a7631b115
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3766536331724056174
-    second: goblinmove2_0
+      213: -7000492060209862800
+    second: fundo1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: goblinmove2_0
+      name: fundo1_0
       rect:
         serializedVersion: 2
-        x: 70
-        y: 19
-        width: 249
-        height: 295
+        x: 0
+        y: 0
+        width: 1024
+        height: 1536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e66e30676dc654430800000000000000
-      internalID: 3766536331724056174
+      spriteID: 077af3abf8149de90800000000000000
+      internalID: -7000492060209862800
       vertices: []
       indices: 
       edges: []

@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: e1564e7f5d36edc488393d29a745a45c
+guid: c5340d11d5e7d334896356e17e827c2d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4204902625489230929
-    second: SpritesheetTorrePedra_0
+      213: -1992745949543102257
+    second: Flag-removebg-preview_0
   - first:
-      213: -941222959527895696
-    second: SpritesheetTorrePedra_1
+      213: -2619284984863856342
+    second: Flag-removebg-preview_1
   - first:
-      213: 5375429203039092174
-    second: SpritesheetTorrePedra_2
-  - first:
-      213: 7944267847989884238
-    second: SpritesheetTorrePedra_3
-  - first:
-      213: 1933634175617117104
-    second: SpritesheetTorrePedra_4
-  - first:
-      213: 650552544966487898
-    second: SpritesheetTorrePedra_5
+      213: -6502550695011046868
+    second: Flag-removebg-preview_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,17 +102,56 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpritesheetTorrePedra_0
+      name: Flag-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 407
-        width: 128
-        height: 189
+        x: 76
+        y: 60
+        width: 311
+        height: 368
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15c946bc8a0da5a30800000000000000
-      internalID: 4204902625489230929
+      spriteID: fc882eded185854e0800000000000000
+      internalID: -1992745949543102257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetTorrePedra_1
+      name: Flag-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 241
-        y: 407
-        width: 128
-        height: 187
+        x: 111
+        y: 55
+        width: 19
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07dd5e284ba10f2f0800000000000000
-      internalID: -941222959527895696
+      spriteID: a29ecaf0f2e66abd0800000000000000
+      internalID: -2619284984863856342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetTorrePedra_2
+      name: Flag-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 38
-        y: 209
-        width: 131
-        height: 187
+        x: 310
+        y: 49
+        width: 9
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,74 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecdf762416c599a40800000000000000
-      internalID: 5375429203039092174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetTorrePedra_3
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 208
-        width: 126
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e457ef76485bf3e60800000000000000
-      internalID: 7944267847989884238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetTorrePedra_4
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 5
-        width: 135
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bba633b906a5da10800000000000000
-      internalID: 1933634175617117104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetTorrePedra_5
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 4
-        width: 133
-        height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5f2476c71a370900800000000000000
-      internalID: 650552544966487898
+      spriteID: c2aa5e9489c42c5a0800000000000000
+      internalID: -6502550695011046868
       vertices: []
       indices: 
       edges: []
@@ -260,12 +224,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpritesheetTorrePedra_0: 4204902625489230929
-      SpritesheetTorrePedra_1: -941222959527895696
-      SpritesheetTorrePedra_2: 5375429203039092174
-      SpritesheetTorrePedra_3: 7944267847989884238
-      SpritesheetTorrePedra_4: 1933634175617117104
-      SpritesheetTorrePedra_5: 650552544966487898
+      Flag-removebg-preview_0: -1992745949543102257
+      Flag-removebg-preview_1: -2619284984863856342
+      Flag-removebg-preview_2: -6502550695011046868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

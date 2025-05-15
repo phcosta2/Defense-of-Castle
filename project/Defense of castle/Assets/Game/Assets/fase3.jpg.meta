@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 359bee4e986ca92499a26e5b30612dbd
+guid: 2d91d3d63934ece4ea44593badbfa0a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3808884166559386428
-    second: RockProjetil_0
-  - first:
-      213: -1028497914713174912
-    second: RockProjetil_1
-  - first:
-      213: 7969046080563569201
-    second: RockProjetil_2
-  - first:
-      213: -7603894323170149679
-    second: RockProjetil_3
-  - first:
-      213: -9088308041831749658
-    second: RockProjetil_4
+      213: -880169609920559662
+    second: fase3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RockProjetil_0
+      name: fase3_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 48
-        width: 114
-        height: 113
+        x: 0
+        y: 0
+        width: 1024
+        height: 1536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,96 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c43e95e700242bc0800000000000000
-      internalID: -3808884166559386428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockProjetil_1
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 48
-        width: 112
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08c8a45889a0ab1f0800000000000000
-      internalID: -1028497914713174912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockProjetil_2
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 43
-        width: 111
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 132e5be303db79e60800000000000000
-      internalID: 7969046080563569201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockProjetil_3
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 41
-        width: 109
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1da75d5766a897690800000000000000
-      internalID: -7603894323170149679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RockProjetil_4
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 40
-        width: 114
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e7ea45ecf7dfd180800000000000000
-      internalID: -9088308041831749658
+      spriteID: 2d54792376209c3f0800000000000000
+      internalID: -880169609920559662
       vertices: []
       indices: 
       edges: []
@@ -234,12 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      RockProjetil_0: -3808884166559386428
-      RockProjetil_1: -1028497914713174912
-      RockProjetil_2: 7969046080563569201
-      RockProjetil_3: -7603894323170149679
-      RockProjetil_4: -9088308041831749658
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

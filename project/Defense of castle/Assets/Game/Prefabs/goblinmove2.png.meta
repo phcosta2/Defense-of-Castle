@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: eede1229fe53fa44ea0ff40476b81b93
+guid: a7b034c45e5212a4785fa50dc54e7add
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1771990472863151782
-    second: FireProjetil_0
-  - first:
-      213: -6389047743125788897
-    second: FireProjetil_1
-  - first:
-      213: 1384321172922483418
-    second: FireProjetil_2
-  - first:
-      213: 503636305709920735
-    second: FireProjetil_3
-  - first:
-      213: -3185179288688223190
-    second: FireProjetil_4
-  - first:
-      213: 7884104430868781393
-    second: FireProjetil_5
+      213: 3766536331724056174
+    second: goblinmove2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -154,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FireProjetil_0
+      name: goblinmove2_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 129
-        width: 82
-        height: 82
+        x: 70
+        y: 19
+        width: 249
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,118 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a6726852ff579810800000000000000
-      internalID: 1771990472863151782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireProjetil_1
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 129
-        width: 81
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f17e9f1adea8557a0800000000000000
-      internalID: -6389047743125788897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireProjetil_2
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 129
-        width: 81
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad2c817b5c8163310800000000000000
-      internalID: 1384321172922483418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireProjetil_3
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 24
-        width: 82
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd174d93d864df600800000000000000
-      internalID: 503636305709920735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireProjetil_4
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 24
-        width: 81
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2c9ecf0058fbc3d0800000000000000
-      internalID: -3185179288688223190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FireProjetil_5
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 24
-        width: 81
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15954064537f96d60800000000000000
-      internalID: 7884104430868781393
+      spriteID: e66e30676dc654430800000000000000
+      internalID: 3766536331724056174
       vertices: []
       indices: 
       edges: []
@@ -299,12 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FireProjetil_0: 1771990472863151782
-      FireProjetil_1: -6389047743125788897
-      FireProjetil_2: 1384321172922483418
-      FireProjetil_3: 503636305709920735
-      FireProjetil_4: -3185179288688223190
-      FireProjetil_5: 7884104430868781393
+      goblinmove2_0: 3766536331724056174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

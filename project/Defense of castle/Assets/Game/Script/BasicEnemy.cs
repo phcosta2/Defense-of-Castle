@@ -28,22 +28,32 @@ public class BasicEnemy : MonoBehaviour
         }
     }
 
-    void Die()
+void Die()
+{
+    if (movementScript != null)
     {
-        if (movementScript != null)
-        {
-            movementScript.enabled = false; // Desabilita o script de movimento
-        }
-        // Lógica de morte: Efeitos, som, dar dinheiro/pontos
-        // Debug.Log($"{gameObject.name} derrotado!");
-        // Futuro: GameManager.Instance.AddMoney(10);
-        if (dieiagePrefab != null)
-        {
-            GameObject dieiage = Instantiate(dieiagePrefab, transform.position, Quaternion.identity);
-            Destroy(dieiage, dieiageDuration); // Após 2 segundos, destrói a imagem
-        }
-        Destroy(gameObject);
+        movementScript.enabled = false; // Desabilita o script de movimento
     }
+
+    // Dá dinheiro para o jogador
+    MoneyManager moneyManager = FindObjectOfType<MoneyManager>();
+    if (moneyManager != null)
+    {
+        moneyManager.AddMoney(5);
+    }
+    else
+    {
+        Debug.LogWarning("MoneyManager não encontrado na cena!");
+    }
+
+    if (dieiagePrefab != null)
+    {
+        GameObject dieiage = Instantiate(dieiagePrefab, transform.position, Quaternion.identity);
+        Destroy(dieiage, dieiageDuration); // Após 2 segundos, destrói a imagem
+    }
+
+    Destroy(gameObject);
+}
 
     // Você pode adicionar mais coisas específicas deste inimigo aqui depois.
 }
